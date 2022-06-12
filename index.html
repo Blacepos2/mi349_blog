@@ -6,13 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Joshua Austin">
 	<meta name="description" content="Controversial Music Theory is a blog site which gives music theory lessons to unsuspecting and unwilling composers">
+	<link rel="stylesheet" href="style.css">
 	<title>Controversial Music Theory</title>
 </head>
 <body>
 
 <header>
 	<h1>Controversial Music Theory</h1>
-	<p>Have you memorized your Circle of <em>Thirds</em>?</p>
+	<p id="motd">Have you memorized your Circle of <em>Thirds</em>?</p>
 	<nav>
 		<ul>
 			<li><a href="index.html">Home</a></li>
@@ -22,7 +23,7 @@
 	</nav>
 </header>
 
-<section id="blog">
+<section id="blog" class="content-focus">
 	<h2>Posts</h2>
 	<article class="blog-post">
 		<h3>You Are Wrong About Music</h3>
@@ -139,7 +140,7 @@ go above and beyond for you.</p>
 	<h2>Newsletter Signup</h2>
 	<form>
 		<label>Sign up for my newsletter:
-			<input type="text">
+			<input type="email">
 		</label>
 		<input type="submit" value="Subscribe">
 	</form>

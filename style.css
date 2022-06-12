@@ -1,0 +1,107 @@
+/* 10 rule sets */
+/* 1 of each selector: type, class, ID, attribute */
+/* consistency across all HTML files */
+/* modify layout (backgrounds, margins, padding) and typography */
+/* VALIDATE IF YOU MAKE HTML CHANGES!!! */
+
+html {
+	background-color: #f0f0f0;
+}
+
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	min-width: 500px;
+	padding: 20px;
+	background-color: #fffbf6;
+	box-shadow: 0px 0px 10px 2px #ddd;
+}
+
+header {
+	border-bottom: 2px solid #eee;
+}
+
+#motd {
+	word-spacing: 2px;
+	font-size: large;
+	margin: 2%;
+	color: #444;
+}
+
+#motd em {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 500;
+	color: rgb(139, 0, 30);
+}
+
+nav a {
+	text-decoration: unset;
+	color: rgb(104, 2, 24);
+	word-spacing: 2em;
+}
+
+.content-focus {
+	color: #333;
+	padding: 10px;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+.content-focus > h2 {
+	text-align: center;
+}
+
+.blog-post {
+	border-bottom: 2px solid #eee;
+}
+
+table {
+	border: 1px dotted #bbb;
+	padding: 15px;
+	text-align: center;
+}
+
+h1 {
+	text-shadow: 0px 0px 4px #ddd;
+}
+
+a {
+	text-decoration: unset;
+	font-weight: light;
+}
+
+.author {
+	color: #666;
+}
+.author a {
+	color: #666;
+	color: rgb(104, 2, 24);
+}
+
+article > p {
+	color: #666;
+}
+
+.blog-post img {
+	max-width: 600px;
+	max-height: 400px;
+	border: 1px solid #444;
+}
+
+input[type="email"] {
+	font-style: italic;
+	font-size: 1em;
+	color: rgb(41, 145, 41);
+}
+
+#newsletter-signup {
+	padding: 20px;
+}
+
+#contact-form {
+	max-width: 200px;
+	line-height: 40px;
+}
