@@ -22,23 +22,29 @@
 	<section id="contact-form" class="content-focus">
 		<h2>Contact Me</h2>
 		<form>
-			<label>Your Name:
-				<input type="text">
-			</label>
-			<label>Your Email Addres:
-				<input type="email">
-			</label>
-			<label>Reason for Contact:
-				<input list="contact-reasons">
-				<datalist id="contact-reasons">
-					<option value="Saying Hi"></option>
-					<option value="Looking for a Contractor"></option>
-					<option value="Interested in an Interview"></option>
-				</datalist>
-			</label>
-			<label>Contents:
-				<textarea cols="30" rows="10"></textarea>
-			</label>
+			<div class="form-columns">
+				<div>
+					<label>Your Name:<br>
+						<input type="text"><br>
+					</label>
+					<label>Your Email Addres:<br>
+						<input type="email">
+					</label>
+				</div>
+				<div>
+					<label>Reason for Contact:<br>
+						<input list="contact-reasons">
+						<datalist id="contact-reasons">
+							<option value="Saying Hi"></option>
+							<option value="Looking for a Contractor"></option>
+							<option value="Interested in an Interview"></option>
+						</datalist><br>
+					</label>
+					<label>Contents:<br>
+						<textarea cols="30" rows="10"></textarea>
+					</label>
+				</div>
+			</div>
 			<input type="submit" value="Subscribe">
 		</form>
 	</section>
