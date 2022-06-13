@@ -154,11 +154,12 @@ input[type="email"] {
 }
 
 @media (max-width: 400px) {
-	img {
+	.blog-post img {
 		float: left;
 		margin-right: 10px;
 		margin-top: 10px;
 		margin-bottom: 10px;
+		height: auto;
 	}
 
 	.form-columns {
