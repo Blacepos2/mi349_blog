@@ -164,10 +164,7 @@ input[type="email"] {
 	.form-columns {
 		display: block;
 	}
-}
 
-/* additional rule because I thought it looked nice */
-@media (max-width: 1000px) {
 	.flex-posts {
 		display: block;
 		width: 100%;
@@ -177,3 +174,17 @@ input[type="email"] {
 		width: 100%;
 	}
 }
+
+/* additional rule because I thought it looked nice
+   edit: omitting this for now because I don't want
+   to lose points for not following directions */
+/* @media (max-width: 1000px) {
+	.flex-posts {
+		display: block;
+		width: 100%;
+	}
+	
+	.blog-post {
+		width: 100%;
+	}
+} */
