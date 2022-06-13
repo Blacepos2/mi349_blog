@@ -89,6 +89,7 @@ nav a {
 table {
 	border: 1px dotted #bbb;
 	padding: 15px;
+	margin: 0;
 	text-align: center;
 }
 
@@ -150,4 +151,29 @@ input {
 input[type="email"] {
 	font-style: italic;
 	color: rgb(41, 145, 41);
+}
+
+@media (max-width: 400px) {
+	img {
+		float: left;
+		margin-right: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.form-columns {
+		display: block;
+	}
+}
+
+/* additional rule because I thought it looked nice */
+@media (max-width: 1000px) {
+	.flex-posts {
+		display: block;
+		width: 100%;
+	}
+	
+	.blog-post {
+		width: 100%;
+	}
 }
